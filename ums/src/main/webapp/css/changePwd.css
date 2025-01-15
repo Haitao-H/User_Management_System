@@ -1,0 +1,71 @@
+.bms-change-password {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f8fc;
+    border: 1px solid #d1d9e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.bms-change-password h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.input-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #34495e;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-button:hover {
+    background-color: #1abc9c;
+}
+
+.error-message {
+    color: red;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.success-message {
+    color: green;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.tips-message {
+    color: grey;
+    padding: 10px;
+    font-size: 14px;
+}
